@@ -1,0 +1,44 @@
+body {
+    Color: brown;
+    Background-color: beige;
+    font-family: cursive;
+}
+h1 { 
+    color: blue;
+    font-family: monospace;
+}
+h2 {
+    color:green;
+}
+#html-anatomy-heading {
+    Color: red;
+    
+}
+.underline{
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+}
+#introduction-ps {
+    font-style: italic;
+    font-size: 10px;
+}
+#move {
+    bottom: -8%;
+    position: relative;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 8s;
+  }
+  @-webkit-keyframes run {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 100%;
+    }
+    100% {
+      left: 0;    
+    }
+  }
